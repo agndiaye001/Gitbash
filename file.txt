@@ -1,1 +1,49 @@
-gitbash update
+Git bash commande local 
+cd Documents/
+   57  mkdir Gitbash
+   58  ls
+   59  mkdir Gitbash2
+   60  cd Gitbash
+   61  pwd
+   62  git init
+   63  ls
+   64  touch html
+   65  rm html
+   66  ls
+   67  touch indx.html
+   68  rm indx.html
+   69  touch index.html
+   70  touch index.js
+   71  touch index.css
+   72  ls
+   73  git status
+   74  echo "gitbash " > file.txt
+   75  explorer
+   76  ls
+   77  git status
+   78  clear
+   79  git add file.txt
+   80  git commit -m "adding file.txt"
+   81  git status
+   82  git add file.txt
+   83  git commit -m "update manuelly"
+   84  git log
+   85  git  70c49ffbfafde8e1438a146ac214e1436a121e2b
+   86  git show  70c49ffbfafde8e1438a146ac214e1436a121e2b
+   87  clear
+   88  git config --global --list
+   89  ls
+   90  rm index.css
+   91  touch index1.tx
+   92  ls
+   93  git add .
+   94  git commit -m "deelete and create index.tx"
+   95  ls
+   96  git log
+   97  git show 3129331835f0ce0cada9a239f4302daeca90a09f
+   98  git checkout 3129331835f0ce0cada9a239f4302daeca90a09f
+   99  ls
+
+
+
+GitHub commande distant
