@@ -1,0 +1,36 @@
+git init 
+git add . 
+git commit -u "Fist Commit"
+
+connexion 
+127  git config --global user.mail "mamindiaye0101@gmail.com"
+128  git config --global user.name "Agndiaye"
+
+
+
+
+Accédez à Settings > Developer Settings > Personal Access Tokens > Tokens (classic).
+Cliquez sur Generate new token (classic) : generer un token 
+
+git push -u origin main
+Username for 'https://github.com': agndiaye001
+Password for 'https://agndiaye001@github.com': "colle le tocken access"
+
+
+quiiter la conenxion de ssh à https   
+189  git remote set-url origin https://github.com/agndiaye001/CofeeMachine.git
+190  git remote -v
+191  git push -u origin main
+
+
+
+------ CLONE ----------------
+git clone https://github.com/POEDEVOPS/shell-scripts.git
+241  ssh-keygen -t ed25519 -C "mamindiaye0101@gmail.com"
+  242  eval "$(ssh-agent -s)"
+  243  ssh-add ~/.ssh/id_ed25519
+       cat /home/agn/.ssh/id_rsa.pub 
+#dans git creer ou ajour la clé ssh
+#teste la connestion 
+ 249  ssh -T git@github.com
+
